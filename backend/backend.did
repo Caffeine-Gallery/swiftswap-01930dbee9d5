@@ -1,0 +1,5 @@
+type Time = int;
+service : {
+  getCurrentRate: () -> (text, text, Time) query;
+  updateExchangeRate: (text, text) -> ();
+}

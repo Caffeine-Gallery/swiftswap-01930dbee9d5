@@ -1,0 +1,46 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 15px;
+}
+
+.card-header {
+    background-color: #fff;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 15px 15px 0 0 !important;
+}
+
+#rateValue {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #0d6efd;
+    margin: 1.5rem 0;
+}
+
+#pairDisplay {
+    color: #6c757d;
+}
+
+.opacity-50 {
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+}
+
+.spinner-border {
+    width: 3rem;
+    height: 3rem;
+}
+
+@media (max-width: 576px) {
+    #rateValue {
+        font-size: 2rem;
+    }
+    
+    .card {
+        margin: 1rem;
+    }
+}
